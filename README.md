@@ -27,7 +27,7 @@ The **Bus Booking System** provides a complete end-to-end ticket reservation exp
 - 🎫 Real-time seat availability tracking  
 - 👥 Multi-passenger booking  
 - 🧾 Booking history with seat details  
-- 📡 Fully deployed with CI-friendly architecture  
+- 📡 Fully deployable with CI-friendly architecture  
 
 Built for **scalability**, **modularity**, and **enterprise-readiness**.
 
@@ -69,9 +69,6 @@ Built for **scalability**, **modularity**, and **enterprise-readiness**.
 - PostgreSQL 15 (Managed on Render)
 
 ### **DevOps**
-- Render Web Service  
-- Render Static Site  
-- Render Managed PostgreSQL  
 - Dockerfile  
 
 ---
@@ -93,7 +90,7 @@ Built for **scalability**, **modularity**, and **enterprise-readiness**.
                                          ▼
                           ┌────────────────────────────┐
                           │     PostgreSQL Database    │
-                          │ Managed on Render Cloud    │
+                          │                            │
                           └────────────────────────────┘
 ```
 
@@ -260,21 +257,6 @@ Runs at: **http://localhost:3000**
 - Unique seat numbers  
 - Non-empty passengers  
 - Ages 1–120  
-
----
-
-# 🚀 Deployment (Render)
-
-### Frontend  
-- Static Site  
-- Build: `npm run build`  
-- Publish: `build/`
-
-### Backend  
-- Web Service using `Dockerfile`
-
-### Database  
-- Render Managed PostgreSQL
 
 ---
 
