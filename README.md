@@ -18,15 +18,6 @@ A bus reservation platform built using **React**, **Spring Boot**, and **Postgre
 
 ---
 
-# 🌐 **Live Demo**
-
-### 🚀 Frontend (React) — Render Deployment  
-👉 **https://bus-booking-system-frontend.onrender.com**
-
-> ⚠ Backend + PostgreSQL remain private for security, rate limiting, and user protection.
-
----
-
 # 🔍 **Overview**
 
 The **Bus Booking System** provides a complete end-to-end ticket reservation experience:
